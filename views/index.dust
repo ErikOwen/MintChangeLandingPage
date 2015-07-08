@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Mint Change</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="stylesheets/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<div class="container-full">
+
+      <div class="row">
+       
+        <div class="col-lg-12 text-center v-center">
+          
+          <h1>Mint Change</h1>
+          <p class="lead">Enter the average number of transactions to see how much you can save:</p>
+          
+          <br>
+          
+          <div class="col-lg-12">
+            <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
+            <input class="form-control input-lg" title="Don't worry. We hate spam, and will not share your email with anyone." placeholder="3" type="number" id="spinner">
+              <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-lig-12 text-center">
+          <canvas id="myChart" width="300" height="300" style="background-color:white; padding:20px"></canvas>
+        </div>
+        <br><br>
+        <div class="col-lig-12 text-center">
+          <a href="/landing" type="button" class="btn btn-primary btn-lg">Learn More!</a>
+        </div>
+
+        <div class="col-lig-12 text-center">
+          <img src="images/intuit_labs.jpg" width="200px" style="margin-top:100px;">
+        </div>
+        
+      </div> <!-- /row -->
+  
+  	  <div class="row">
+       
+        <div class="col-lg-12 text-center v-center" style="font-size:39pt;">
+          <a href="https://plus.google.com/112048037864316325069/videos"><i class="icon-google-plus"></i></a> <a href="https://www.facebook.com/pages/Intuit-Labs/179171078457"><i class="icon-facebook"></i></a>  <a href="https://twitter.com/intuitlabs"><i class="icon-twitter"></i></a> <a href="https://github.com/intuitlabs"><i class="icon-github"></i></a>
+        </div>
+      
+      </div>
+  
+  	<br><br><br><br>
+
+</div> <!-- /container full -->
+
+<div class="container">
+  
+  	<hr>
+  
+  	<div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"><h3>What is Mint Change?</h3></div>
+            <div class="panel-body">
+              Mint change is an idea where on every transaction that a person makes, it will be rounded up to the next dollar. This money will accumulate over time, and the user will get that money back at the end of the period.
+            </div>
+          </div>
+        </div>
+      	<div class="col-md-4">
+        	<div class="panel panel-default">
+            <div class="panel-heading"><h3>How Will I Receive My Change?</h3></div>
+            <div class="panel-body">At the end of the savings period, you can either put your money into an account of your choice, invest your money to watch it grow, or donate it to a charity of your choice.
+            </div>
+          </div>
+        </div>
+      	<div class="col-md-4">
+        	<div class="panel panel-default">
+            <div class="panel-heading"><h3>Who Are We?</h3></div>
+            <div class="panel-body">We are working at Intuit Labs to innovate new ways to give you the best financial experience possible.
+            </div>
+          </div>
+        </div>
+    </div>
+  
+<!-- 	<div class="row">
+        <div class="col-lg-12">
+        <br><br>
+          <p class="pull-right"><a href="http://www.bootply.com">Template from Bootply</a> &nbsp; ©Copyright 2013 ACME<sup>TM</sup> Brand.</p>
+        <br><br>
+        </div>
+    </div> -->
+</div>
+
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/Chart.min.js"></script>
+    <script src="javascripts/landing.js"></script>
+	</body>
+</html>
